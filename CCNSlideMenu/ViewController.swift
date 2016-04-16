@@ -45,7 +45,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
              平分:Average
              滑动:Slide
              */
-            let slideBar = CCNSlideBar(frame: CGRectMake(0, 0, MainWidth, 40), disPlayType: .Average)
+            let slideBar = CCNSlideBar(frame: CGRectMake(0, 0, MainWidth, 40), disPlayType: .Slide)
             slideBar.itemsTitle = self.viewArr
 //            slideBar.itemColor = UIColor(red: 255.0, green: 153.0, blue: 204.0, alpha: 1)
 //            slideBar.itemSelectedColor = UIColor.magentaColor()
